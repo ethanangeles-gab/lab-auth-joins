@@ -44,7 +44,7 @@ A Node.js/MySQL reference project demonstrating various SQL JOIN types with prac
 | `/api/reports/referrals`               | Show user referrals: who referred whom. (Uses SELF JOIN/INNER JOIN)                   |
 | `/api/reports/latest-login`            | Show the latest login for every user, including those who never logged in. (LEFT JOIN + subquery) |
 
-All endpoints require authentication (Bearer token in `Authorization` header).
+All endpoints require authentication (Bearer token in `Authorization` header). Endpoints may vary. Feel free to change them on your own.
 
 ---
 
